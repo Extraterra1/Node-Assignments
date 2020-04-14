@@ -1,0 +1,9 @@
+li{
+	border: 2px solid red;
+}
+.checkedItem{
+	text-decoration: line-through;
+}
+#special{
+	background-color: yellow;
+}

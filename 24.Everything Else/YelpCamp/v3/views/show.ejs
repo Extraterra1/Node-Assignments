@@ -1,0 +1,10 @@
+<%- include('partials/header') %>
+<h1><%= campground.name %></h1>
+
+<img src="<%= campground.img %>" alt="">
+<p><%= campground.description %></p>
+
+<% campground.comments.forEach(element => { %>
+    <p><strong><%= element.author  %></strong> - <%= element.text %> </p>
+<% }) %>
+<%- include('partials/footer') %> 

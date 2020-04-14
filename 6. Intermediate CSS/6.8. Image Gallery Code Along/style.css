@@ -1,0 +1,23 @@
+img{
+	width: 30%;
+	float: left;
+	/*Each image takes 30% of the body, equaling to 90%
+	There's 10% left of unused space, and 6 margins to calculate
+	10/6 = 1.66%
+
+	left image = margin left,right
+	middle image = margin left,right
+	right image = margin left,right*/
+	margin: 1.66%;
+}
+
+p{
+	font-family: Raleway;
+	margin-left: 1.66%;
+	text-transform: uppercase;
+	font-size: 23px;
+	font-weight: 800;
+	border-bottom: 2px solid #f1f1f1;
+	width: 30%;
+	padding-bottom: 20px;
+}

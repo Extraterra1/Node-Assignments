@@ -1,0 +1,14 @@
+table{
+	border: 2px solid black;
+	border-radius: 3px;
+	padding: 20px;
+}
+tbody tr:nth-of-type(even){
+	background-color: gray;
+}
+tbody tr:nth-of-type(odd){
+	background-color: lightgray;
+}
+thead{
+	background-color: white;
+}
